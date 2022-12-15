@@ -4,10 +4,10 @@ plugins {
 }
 
 android {
-    namespace = "br.com.aplicativo.appkmm.android"
-    compileSdk = 32
+    namespace = Namespaces.namespace
+    compileSdk = Playstore.compileSdk
     defaultConfig {
-        applicationId = "br.com.aplicativo.appkmm.android"
+        applicationId = Playstore.applicationId
         minSdk = Playstore.minSdk
         targetSdk = Playstore.targetSdk
         versionCode = Playstore.versionCode
@@ -17,7 +17,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.3.0"
+        kotlinCompilerExtensionVersion = Versions.composeCompiler
     }
     packagingOptions {
         resources {
@@ -33,10 +33,27 @@ android {
 
 dependencies {
     implementation(project(":shared"))
+
+    // CORE
+    implementation(Androidx.core)
+    implementation(Androidx.lifecycleRuntime)
+
+    // CORE COMPOSE
     implementation(Compose.ui)
-    implementation(Compose.tooling)
     implementation(Compose.toolingPreview)
     implementation(Compose.foundation)
     implementation(Compose.material)
+    implementation(Compose.layout)
+    implementation(Compose.themeAdapter)
+    implementation(Compose.runtime)
     implementation(Compose.activity)
+    implementation(Compose.materialIconsExtended)
+    implementation(Compose.shimmer)
+
+    // DEBUGGING
+    debugImplementation(Compose.tooling)
+
+    // TESTING
+    testImplementation(Test.junit)
+    androidTestImplementation(TestUi.extJunit)
 }

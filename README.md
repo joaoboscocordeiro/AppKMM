@@ -1,5 +1,5 @@
 # AppKMM
-Aplicativo Híbrido com o novo plugin KMM "Kotlin Multiplatform Mobile"
+Aplicativo Multiplataforma com o novo plugin KMM "Kotlin Multiplatform Mobile"
 
 # Tecnologias Usadas
 

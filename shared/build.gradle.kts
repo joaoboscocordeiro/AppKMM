@@ -48,9 +48,9 @@ kotlin {
 
 android {
     namespace = "br.com.aplicativo.appkmm"
-    compileSdk = 32
+    compileSdk = Playstore.compileSdk
     defaultConfig {
-        minSdk = 24
-        targetSdk = 32
+        minSdk = Playstore.minSdk
+        targetSdk = Playstore.targetSdk
     }
 }

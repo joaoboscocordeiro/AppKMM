@@ -7,12 +7,13 @@ object Playstore {
     const val applicationId = "br.com.aplicativo.appkmm.android"
     const val minSdk = 24
     const val targetSdk = 32
+    const val compileSdk = 32
     const val versionCode = 1
     const val versionName = "1.0.0"
 }
 
 object Namespaces {
-    const val android = "br.com.aplicativo.appkmm.android"
+    const val namespace = "br.com.aplicativo.appkmm.android"
     const val shared = "br.com.aplicativo.appkmm"
 }
 
