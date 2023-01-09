@@ -5,3 +5,4 @@ Aplicativo Multiplataforma com o novo plugin KMM "Kotlin Multiplatform Mobile"
 
 #### 1 - Kotlin Language
 #### 2 - Compose
+#### 3 - Shared ViewModel
