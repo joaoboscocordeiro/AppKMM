@@ -26,6 +26,11 @@ kotlin {
             dependencies {
                 implementation(Kotlinx.coroutinesTest)
                 implementation(kotlin("test"))
+
+                implementation(Test.kotlinCommon)
+                implementation(Test.kotlinAnnotation)
+                implementation(Mockk.core)
+                implementation(Mockk.common)
             }
         }
         val androidMain by getting {
