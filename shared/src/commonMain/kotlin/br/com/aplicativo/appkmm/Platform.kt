@@ -9,6 +9,6 @@ interface Platform {
 expect fun getPlatform(): Platform
 
 expect abstract class BaseSharedViewModel() {
-    val scopo: CoroutineScope
+    val scope: CoroutineScope
     protected fun onCleared()
 }
