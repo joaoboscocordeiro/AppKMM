@@ -6,6 +6,7 @@ Aplicativo Híbrido com o novo plugin KMM "Kotlin Multiplatform Mobile"
 #### 1 - Kotlin Language
 #### 2 - Compose
 
+-----------------------------------------------------------------------------------------------------
 
-1. Utilizando o Detekt
-    - [01-config-module](https://github.com/joaoboscocordeiro/AppMarvel/tree/01-config-module)
+1. Utilizando o Compose
+    - [01-config-compose]([https://github.com/joaoboscocordeiro/AppMarvel/tree/01-config-module](https://github.com/joaoboscocordeiro/AppKMM/tree/01-config-compose-dependencies))
