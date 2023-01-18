@@ -9,4 +9,4 @@ Aplicativo Híbrido com o novo plugin KMM "Kotlin Multiplatform Mobile"
 -----------------------------------------------------------------------------------------------------
 
 1. Utilizando o Compose
-    - [01-config-compose]([https://github.com/joaoboscocordeiro/AppKMM/tree/01-config-compose-dependencies])
+    - [01-config-compose](https://github.com/joaoboscocordeiro/AppKMM/tree/01-config-compose-dependencies)
